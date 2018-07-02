@@ -21,4 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so
 
 PRODUCT_PACKAGES += \
-    QtiTelephonyService
+    QtiTelephonyService \
+    CNEService \
+    com.qualcomm.location \
+    qcrilmsgtunnel
