@@ -31,4 +31,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    dashd
