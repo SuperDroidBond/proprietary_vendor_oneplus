@@ -915,7 +915,6 @@ PRODUCT_PACKAGES += \
     uceShimService \
     IFAAService \
     WfdService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     CneApp \
     IWlanService \
