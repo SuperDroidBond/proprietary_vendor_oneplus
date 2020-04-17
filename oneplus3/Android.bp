@@ -66,15 +66,6 @@ android_app_import {
 	},
 }
 
-android_app_import {
-	name: "SoterService",
-	owner: "oneplus",
-	apk: "proprietary/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
 
 android_app_import {
 	name: "datastatusnotification",
@@ -116,16 +107,6 @@ android_app_import {
 	},
 }
 
-android_app_import {
-	name: "IFAAService",
-	owner: "oneplus",
-	apk: "proprietary/priv-app/IFAAService/IFAAService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
 
 android_app_import {
 	name: "WfdService",
